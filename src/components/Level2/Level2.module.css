@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(163deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px), linear-gradient(161deg, transparent 0px, #181818 1px, #793535 2px, #793535 15px, transparent 15px), linear-gradient(343deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px), linear-gradient(343deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px);
+    background-color: #000000;
+    background-position: 2px 1px, 23px 16px,48px 15px, 21px 30px;
+    background-size: 48px 30px;
+    opacity: 90%;
+}
+
+.window{
+    width: 50vh;
+    height: 50vh;
+    background-color: brown;
+    border: 6px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+.border input{
+    width: 100%;
+}
+
+.container a{
+    color: #672727;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.vertical{
+    margin: 0 20px;
+    height: 100%;
+    border-left: 8px solid brown;
+}

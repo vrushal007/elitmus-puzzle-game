@@ -1,0 +1,64 @@
+.container {
+    background: linear-gradient(163deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px), linear-gradient(161deg, transparent 0px, #181818 1px, #793535 2px, #793535 15px, transparent 15px), linear-gradient(343deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px), linear-gradient(343deg, transparent 0px, transparent 1px, #793535 1px, #793535 14px, transparent 14px);
+    background-color: #000000;
+    background-position: 2px 1px, 23px 16px,48px 15px, 21px 30px;
+    background-size: 48px 30px;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 90%;
+    color: white;
+}
+
+.container h3{
+    margin-bottom: 0.8rem;
+}
+
+.door{
+    width: 35vh;
+    height: 70vh;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+    color: #000000;
+    cursor: pointer;
+}
+.doorGrp{
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.door h2{
+    color: black;
+    align-self: flex-end;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.floor{
+    background: bisque;
+    height: 30vh;
+    width: 100%;
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.floor a{
+    color: bisque;
+}
+
+.floor span{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.active{
+    color: rgb(8, 57, 8);
+}
