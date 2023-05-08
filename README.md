@@ -14,7 +14,7 @@ It also shows you on which level you are.
 #
 ## Level 1
 it has a hidden link right side of window which will redirect you to instagram. It contains solution of answer.
-possible answers are
+possible answers is any of them mentioned below.
 ```
 died
 passed away
